@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <h1><span>Q</span>UIZZ <span><i class="far fa-question-circle"></i></span></h1>
+
+    <form name="quiz" id="quiz">
+        <div class="test">
+            <p class="q">1. Quelle organisation définit les standards Web ?</p>
+            <p><input type="radio" name="question1" value="Apple Inc">A. Apple Inc</p>
+            <p><input type="radio" name="question1" value="IBM Corporation">B. IBM Corporation</p>
+            <p><input type="radio" name="question1" value="World Wild Web Consortium">C. World Wild Web Consortium</p>
+            <p><input type="radio" name="question1" value="Microsoft Corporation">D. Microsoft Corporation</p>
+        </div>
+        <div class="test">
+            <p class="q">2. HTML est considéré comme un : </p>
+            <p><input type="radio" name="question2" value="langage de programmation">A. langage de programmation</p>
+            <p><input type="radio" name="question2" value="langage PO">B. langage PO</p>
+            <p><input type="radio" name="question2" value="langage de haut niveau">C. langage de haut niveau</p>
+            <p><input type="radio" name="question2" value="langage de balisage">D. langage de balisage</p>
+        </div>
+        <div class="test">
+            <p class="q">3. HTML utilise des : </p>
+            <p><input type="radio" name="question3" value="balises définies par l'utilisateur">A. balises définies par l'utilisateur</p>
+            <p><input type="radio" name="question3" value="balises prédéfinies">B. balises prédéfinies</p>
+            <p><input type="radio" name="question3" value="balises fixes définies par le langage">C. balises fixes définies par le langage</p>
+            <p><input type="radio" name="question3" value="balises uniquement pour les liens">D. balises uniquement pour les liens</p>
+        </div>
+        <input type="button" class="btn" value="JPP!" onclick="check()">
+    </form>
+    <p id="resultat"></p>
+</body>
+</html>
