@@ -16,6 +16,7 @@ h1{
     margin: 20px;
     font-weight: 900;
     font-size: 70px;
+    letter-spacing: 10px;
 }
 h1 span{
     color: rgba(252, 104, 6, 0.685);
@@ -23,22 +24,31 @@ h1 span{
 .test{
     margin: 50px;
 }
-.q{
+h5{
     color: rgba(33, 245, 33, 0.726);
+    letter-spacing: 1px;
+    font-size: 18px;
 }
 .btn
 {
     padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
     text-decoration: none;
     font-weight: 700;
-    border-radius: 20%;
-    color: rgba(252, 104, 6, 0.685);
+    font-size: 18px;
+    border-radius: 40%;
+    color: #B9521B;
+    cursor: pointer;
 }
 .btn:hover{
-    background: rgba(252, 104, 6, 0.685);
+    background:#B9521B ;
     color: rgba(15, 10, 55, .9);
     transition: transform 0.5s;
 }
 .green{
     color: rgba(33, 245, 33, 0.726);
+}
+.red{
+    color: #B9521B;
 }
