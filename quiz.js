@@ -5,7 +5,6 @@ function check() {
     var q3 = document.quiz.question3.value;
     var resultat = document.getElementById('resultat');
     var bonneRep = document.querySelectorAll('.bonneRep');
-    var rep = document.querySelectorAll('input');
 
     if(q1 == "World Wild Web Consortium") {
         bonneRep[0].classList.add('green');
@@ -31,11 +30,4 @@ function check() {
     resultat.style.fontSize = "20px";
     resultat.style.fontWeight = "900";
     resultat.style.color = "#B9521B"
-
-    for(var i = 0; i < rep.length; i++) {
-        if(rep[i].checked) {
-            break
-            rep[i].value.classList.add("red")
-        }
-    }
 }
