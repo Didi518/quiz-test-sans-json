@@ -15,8 +15,10 @@ function check() {
         score++;
     }
     if(score < 3) {
-        resultat.textContent = `Ton score est de ${score}. Essaye encore !`;
+        resultat.textContent = `Ton score est de ${score}. 
+        Essaye encore !`;
     } else {
-        resultat.textContent = `Parfait ! Tu as maîtrisé le Quiz tel un full stack, GG !`;
+        resultat.textContent = `Parfait ! 
+        Tu as maîtrisé le Quiz tel un full stack, GG !`;
     }
 }
