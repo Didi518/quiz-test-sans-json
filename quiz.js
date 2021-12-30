@@ -5,6 +5,7 @@ function check() {
     var q3 = document.quiz.question3.value;
     var resultat = document.getElementById('resultat');
     var quiz = document.getElementById('quiz');
+    var bonne_rep = document.getElementById("bonne_rep")
     if(q1 == "World Wild Web Consortium") {
         score++;
     }
@@ -14,10 +15,12 @@ function check() {
     if(q3 == "balises fixes définies par le langage") {
         score++;
     }
-    quiz.style.display = 'none';
     if(score < 3) {
-        resultat.textContent = `Ton score est de ${score}. Essaye encore !`
+        resultat.textContent = `Ton score est de ${score}. Essaye encore !`;
     } else {
-        resultat.textContent = `Parfait ! Tu as maîtrisé le Quiz tel un full stack, GG !`
+        resultat.textContent = `Parfait ! Tu as maîtrisé le Quiz tel un full stack, GG !`;
+    }
+    function couleur (couleur) {
+        bonne_rep.style.color = rgba(33, 245, 33, 0.726);
     }
 }

@@ -24,7 +24,7 @@ h1 span{
     margin: 50px;
 }
 .q{
-    color: rgba(252, 104, 6, 0.685);
+    color: rgba(33, 245, 33, 0.726);
 }
 .btn
 {
@@ -38,4 +38,7 @@ h1 span{
     background: rgba(252, 104, 6, 0.685);
     color: rgba(15, 10, 55, .9);
     transition: transform 0.5s;
+}
+.green{
+    color: rgba(33, 245, 33, 0.726);
 }
